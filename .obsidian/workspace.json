@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "e65bc6353d658916",
+    "type": "split",
+    "children": [
+      {
+        "id": "757b4ee3bd3f35ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a63d0c54b0707be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "devlog.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "devlog"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8e06d4632f1f122e",
+    "type": "split",
+    "children": [
+      {
+        "id": "e4d5a6a3d75f5248",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be6ff6845f3b969b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3d4a77af3a754427",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "fda0dabc8949cb24",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ba1d6d1993b5021c",
+    "type": "split",
+    "children": [
+      {
+        "id": "506c4e391a47069e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "631238466e9491bb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "devlog.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for devlog"
+            }
+          },
+          {
+            "id": "5dba43e84c4c2ea6",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "devlog.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from devlog"
+            }
+          },
+          {
+            "id": "766ee0775f6a49a6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8419e3972e762301",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6b12bb2de59c769c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "devlog.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of devlog"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "9a63d0c54b0707be",
+  "lastOpenFiles": [
+    "node_modules/next/dist/compiled/@vercel/og/yoga.wasm",
+    "node_modules/next/dist/compiled/@vercel/og/resvg.wasm",
+    "node_modules/next/dist/compiled/@vercel/og/noto-sans-v27-latin-regular.ttf",
+    "node_modules/next/web-vitals.d.ts",
+    "node_modules/next/dist/compiled/@vercel/og/types.d.ts",
+    "node_modules/next/server.d.ts",
+    "node_modules/next/script.d.ts",
+    "node_modules/next/router.d.ts",
+    "node_modules/next/experimental/testmode/playwright/msw.js",
+    "node_modules/next/experimental/testmode/playwright/msw.d.ts",
+    "node_modules/next/experimental/testmode/proxy.js",
+    "node_modules/next/README.md",
+    "node_modules/next/dist/compiled/@babel/runtime/README.md",
+    "node_modules/next/license.md",
+    "node_modules/next/dist/compiled/regenerator-runtime/README.md",
+    "node_modules/next/dist/compiled/react-refresh/README.md",
+    "node_modules/next/dist/compiled/react-is/README.md",
+    "node_modules/react-dom/README.md",
+    "node_modules/sucrase/README.md",
+    "node_modules/resolve/SECURITY.md",
+    "node_modules/jiti/README.md",
+    "node_modules/styled-jsx/license.md",
+    "node_modules/styled-jsx/readme.md",
+    "node_modules/postcss-selector-parser/README.md",
+    "node_modules/postcss-selector-parser/CHANGELOG.md",
+    "node_modules/postcss-selector-parser/API.md",
+    "node_modules/fast-glob/README.md",
+    "node_modules/postcss/README.md",
+    "node_modules/next/node_modules/postcss/README.md",
+    "node_modules/react/README.md",
+    "node_modules/@jridgewell/trace-mapping/README.md",
+    "node_modules/scheduler/README.md",
+    "node_modules/nanoid/README.md",
+    "node_modules/source-map-js/README.md",
+    "node_modules/@jridgewell/sourcemap-codec/README.md",
+    "node_modules/@jridgewell/gen-mapping/README.md"
+  ]
+}
