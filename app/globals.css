@@ -3,25 +3,65 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --brand-red: #E8311A;
+  --brand-dark: #1A1A1A;
+  --surface-0: #FFFFFF;
+  --surface-1: #F5F5F5;
+  --surface-2: #EBEBEB;
+  --text-primary: #1A1A1A;
+  --text-secondary: #555555;
+  --text-tertiary: #888888;
+  --color-success: #1DB954;
+  --color-warning: #FF9500;
+  --ballot-badge: #FF6B35;
+  --peak-tint: #FFF3EE;
+  --off-peak-tint: #EDFAEE;
+  --bottom-nav-height: 64px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.dark {
+  --surface-0: #121212;
+  --surface-1: #1E1E1E;
+  --surface-2: #2A2A2A;
+  --text-primary: #F5F5F5;
+  --text-secondary: #AAAAAA;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-surface-0 text-text-primary font-sans;
+    font-family: var(--font-dm-sans), system-ui, sans-serif;
+    max-width: 428px;
+    margin: 0 auto;
+    min-height: 100dvh;
+    overflow-x: hidden;
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--font-dm-mono), monospace;
+  }
+
+  button, a, [role="button"] {
+    min-height: 48px;
+    min-width: 48px;
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  .pb-safe {
+    padding-bottom: max(env(safe-area-inset-bottom), 16px);
+  }
+
+  .pt-safe {
+    padding-top: env(safe-area-inset-top);
   }
 }
