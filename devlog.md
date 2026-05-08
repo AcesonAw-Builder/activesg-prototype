@@ -37,3 +37,8 @@ Rules:
 **Changed:** app/book/page.tsx, components/booking/VenueBookingCard.tsx, app/globals.css (no-scrollbar utility)
 **Notes:** Sport chips filter venue list. Gym capacity badge (green/amber/red). Build clean.
 
+## 2026-05-08 08:01
+**Task:** /book/[venueId] — slot selection
+**Changed:** app/book/[venueId]/page.tsx, components/layout/PageHeader.tsx, components/booking/SlotCard.tsx
+**Notes:** Peak (ballot/orange) and off-peak (direct/green) slot cards. PageHeader reusable for all drill-down screens. Build clean.
+
