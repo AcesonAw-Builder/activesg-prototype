@@ -57,3 +57,8 @@ Rules:
 **Changed:** app/ballot/result/[id]/page.tsx
 **Notes:** Two layouts via ?result=won/missed. Won: checkmark hero + booking card. Missed: alternatives + next ballot window. Build clean.
 
+## 2026-05-08 08:05
+**Task:** /programmes — browse with filter chips
+**Changed:** app/programmes/page.tsx, components/programmes/ProgrammeCard.tsx
+**Notes:** Filter chips (All/Swimming/Badminton/Basketball/Fitness/For Kids). Fill bar shows availability. Free badge. Build clean.
+
