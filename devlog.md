@@ -52,3 +52,8 @@ Rules:
 **Changed:** app/ballot/confirm/page.tsx
 **Notes:** Animated checkmark, ballot summary card, demo simulate buttons (Won/Missed), Back to Home CTA. Build clean.
 
+## 2026-05-08 08:04
+**Task:** /ballot/result/[id] — won and missed states
+**Changed:** app/ballot/result/[id]/page.tsx
+**Notes:** Two layouts via ?result=won/missed. Won: checkmark hero + booking card. Missed: alternatives + next ballot window. Build clean.
+
