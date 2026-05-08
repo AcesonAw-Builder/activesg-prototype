@@ -67,3 +67,8 @@ Rules:
 **Changed:** app/programmes/[id]/page.tsx
 **Notes:** Fill bar, schedule, pricing with credits offset, description, Enrol CTA / waitlist for full. Build clean.
 
+## 2026-05-08 08:07
+**Task:** /programmes/[id]/enrol — enrolment flow
+**Changed:** app/programmes/[id]/enrol/page.tsx
+**Notes:** Participant selector (self + child Ethan, age warning if outside range), pricing summary with credits offset, inline success state. Build clean.
+
