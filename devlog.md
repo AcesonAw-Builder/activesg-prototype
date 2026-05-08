@@ -13,3 +13,27 @@
 **Changed:** app/home/page.tsx, components/home/BallotStatusCard.tsx, components/home/UpcomingCard.tsx, components/home/PassQuickAccess.tsx, components/layout/BottomNav.tsx, components/shared/StatusBadge.tsx, components/shared/CreditsBadge.tsx
 **Notes:** All 5 spec items implemented: header w/ credits badge, active ballot card (73% progress bar, animated), upcoming booking, quick access row (gym pass/ballots/programmes tiles), persistent BottomNav. Motion stagger entrance. Dark mode tokens throughout. Build clean.
 
+
+## Tomorrow — remaining screens
+Resume building screens in this priority order, one at a time:
+1. /book
+2. /book/[venueId]
+3. /ballot/[slotId]
+4. /ballot/confirm
+5. /ballot/result/[id]
+6. /programmes
+7. /programmes/[id]
+8. /programmes/[id]/enrol
+9. /passes/[id]/qr
+
+Rules:
+- Build one screen at a time
+- npm run build after each to confirm no errors
+- Log to devlog.md and Notion after each screen
+- git add . && git commit -m "feat: [screen name]" && git push after each
+- Do not start the next screen until the current one compiles clean
+## 2026-05-08 08:00
+**Task:** /book — venue selector with sport filter chips
+**Changed:** app/book/page.tsx, components/booking/VenueBookingCard.tsx, app/globals.css (no-scrollbar utility)
+**Notes:** Sport chips filter venue list. Gym capacity badge (green/amber/red). Build clean.
+

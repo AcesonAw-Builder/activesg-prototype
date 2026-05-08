@@ -185,6 +185,7 @@
   },
   "active": "9a63d0c54b0707be",
   "lastOpenFiles": [
+    "components/booking/VenueBookingCard.tsx",
     "components/home/PassQuickAccess.tsx",
     "components/home/UpcomingCard.tsx",
     "components/home/BallotStatusCard.tsx",
@@ -195,7 +196,6 @@
     "components/programmes",
     "components/passes",
     "components/layout",
-    "components/home",
     "node_modules/motion-utils/LICENSE.md",
     "node_modules/motion-dom/LICENSE.md",
     "node_modules/phosphor-react/README.md",
