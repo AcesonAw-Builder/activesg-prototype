@@ -77,3 +77,8 @@ Rules:
 **Changed:** app/passes/[id]/qr/page.tsx
 **Notes:** QRCodeSVG with mock token. Auto-brightness boost on mount (+15%). Simulated 60s QR refresh. Simulate Scan → animated success state with CheckCircle. Expired pass shows empty state. Build clean.
 
+## 2026-05-08 08:26
+**Task:** /ballots — my ballots dashboard
+**Changed:** app/ballots/page.tsx
+**Notes:** Active/Past tabs with counts. Pending shows result countdown. Won/missed tap to result screen. Empty states. Build clean.
+
