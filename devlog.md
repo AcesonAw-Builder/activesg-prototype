@@ -47,3 +47,8 @@ Rules:
 **Changed:** app/ballot/[slotId]/page.tsx
 **Notes:** Slot summary, ballot details (window close, result time, credit hold), info notice, CTA routes to /ballot/confirm. Build clean.
 
+## 2026-05-08 08:03
+**Task:** /ballot/confirm — success state
+**Changed:** app/ballot/confirm/page.tsx
+**Notes:** Animated checkmark, ballot summary card, demo simulate buttons (Won/Missed), Back to Home CTA. Build clean.
+
