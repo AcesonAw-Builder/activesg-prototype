@@ -42,3 +42,8 @@ Rules:
 **Changed:** app/book/[venueId]/page.tsx, components/layout/PageHeader.tsx, components/booking/SlotCard.tsx
 **Notes:** Peak (ballot/orange) and off-peak (direct/green) slot cards. PageHeader reusable for all drill-down screens. Build clean.
 
+## 2026-05-08 08:02
+**Task:** /ballot/[slotId] — ballot entry review
+**Changed:** app/ballot/[slotId]/page.tsx
+**Notes:** Slot summary, ballot details (window close, result time, credit hold), info notice, CTA routes to /ballot/confirm. Build clean.
+
