@@ -82,3 +82,8 @@ Rules:
 **Changed:** app/ballots/page.tsx
 **Notes:** Active/Past tabs with counts. Pending shows result countdown. Won/missed tap to result screen. Empty states. Build clean.
 
+## 2026-05-08 08:27
+**Task:** /passes — passes list
+**Changed:** app/passes/page.tsx
+**Notes:** Active/expired sections. Uses progress bar. Active passes tap to QR. ShoppingCart purchase prompt. Build clean.
+
