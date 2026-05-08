@@ -62,3 +62,8 @@ Rules:
 **Changed:** app/programmes/page.tsx, components/programmes/ProgrammeCard.tsx
 **Notes:** Filter chips (All/Swimming/Badminton/Basketball/Fitness/For Kids). Fill bar shows availability. Free badge. Build clean.
 
+## 2026-05-08 08:06
+**Task:** /programmes/[id] — programme detail
+**Changed:** app/programmes/[id]/page.tsx
+**Notes:** Fill bar, schedule, pricing with credits offset, description, Enrol CTA / waitlist for full. Build clean.
+
