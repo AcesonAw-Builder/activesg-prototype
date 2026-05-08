@@ -72,3 +72,8 @@ Rules:
 **Changed:** app/programmes/[id]/enrol/page.tsx
 **Notes:** Participant selector (self + child Ethan, age warning if outside range), pricing summary with credits offset, inline success state. Build clean.
 
+## 2026-05-08 08:08
+**Task:** /passes/[id]/qr — full-screen QR display
+**Changed:** app/passes/[id]/qr/page.tsx
+**Notes:** QRCodeSVG with mock token. Auto-brightness boost on mount (+15%). Simulated 60s QR refresh. Simulate Scan → animated success state with CheckCircle. Expired pass shows empty state. Build clean.
+
